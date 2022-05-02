@@ -1,0 +1,29 @@
+Input:
+------
+Input can be read using Scanner method from java internal Library.
+    Scanner sc = new Scanner(System.in)
+    int t = sc.nextInt();
+
+
+import java.util.Scanner;
+public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in)
+    int t = sc.nextInt();
+    while(t-->0) {
+        int a = sc.nextInt();
+        float = sc.nextFloat();
+        long = sc.nextLong();
+        byte = sc.nextByte();
+    }
+}
+
+Output:
+--------
+System.out.print() - does not create a new line.
+System.out.println() - create a new line .
+System.out.printf or format() - used for formatting the precisions.
+
+%d for integers
+%s for String
+%f for float
+%c for char

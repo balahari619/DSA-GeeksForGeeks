@@ -1,0 +1,40 @@
+variables can start with small, caps, underscore and dollar are allowed.
+variables cannot start with numbers, symbols and keywords.
+camelCase are used by developers.           currentYear nameOfPlayer
+if it is constant, caps variables are used.       final int MAX_AGE=100;
+
+
+Data types:
+Data types specify the different sizes and values that can be stored in the variable. There are two types of data types in Java:
+
+1. Primitive data types: The primitive data types include boolean, char, byte, short, int, long, float and double.
+2. Non-primitive data types: The non-primitive data types include Classes, Interfaces, and Arrays.
+
+There are 8 types of primitive data types:
+1. boolean data type
+2. byte data type
+3. char data type
+4. short data type
+5. int data type
+6. long data type
+7. float data type
+8. double data type
+
+
+
+Data Type	  Default Value 	Default size
+-----------------------------------------------
+boolean	        false	         1 bit
+char	        '\u0000'	     2 byte
+byte	           0	         1 byte
+short	           0	         2 byte
+int                0	         4 byte
+long	           0L	         8 byte
+float	           0.0f	         4 byte
+double	           0.0d	         8 byte
+
+Non-primitive:
+----------------
+Non-primitive data types are always referenced.
+Memory for non-primitive is always stored on heaps.
+Members of non-primitive datatypes always get default values like 0 for int, false for boolean.
